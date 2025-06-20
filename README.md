@@ -1,4 +1,4 @@
-# PRactice of Object + States with an example
+# Practice of Object + States with an example
 
 # 🎲 Ludo Move Tracker
 
