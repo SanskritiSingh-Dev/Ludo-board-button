@@ -1,12 +1,41 @@
-# React + Vite
+# PRactice of Object + States with an example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎲 Ludo Move Tracker
 
-Currently, two official plugins are available:
+A simple **React-based move counter** that tracks moves for each player in a Ludo game — Blue, Red, Green, and Yellow. This project demonstrates the use of `useState`, object state updates, and inline styling in React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🟦 Track moves for Blue player
+- 🟥 Track moves for Red player
+- 🟩 Track moves for Green player
+- 🟨 Track moves for Yellow player
+- ✅ Functional components with hooks
+- 🔁 State updates using spread operator for immutability
+
+
+---
+
+## 🛠️ How It Works
+
+- Each color player has a button.
+- Clicking a button increases that player's move count by 1.
+- All counts are stored in a single object in state using `useState({})`.
+- The `...prevMove` syntax ensures only the updated field changes.
+
+## 💡 Tech Stack
+
+  - React (Functional Components)
+
+  - JavaScript (ES6+)
+
+  - Vite / Webpack (Your preferred bundler)
+
+  - HTML/CSS (Inline Styles used for demo)
+
+---
+
+
+
